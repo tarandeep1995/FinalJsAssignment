@@ -147,7 +147,8 @@ var b_tag = document.createElement('button');
 b_tag.className= "swap";
 b_tag.innerHTML = "Place Order";
 var a_tag = document.createElement('a');
-a_tag.href="place_order.html";
+a_tag.href="OrderPage.html";
+// window.location.href = "OrderPage.html";
 a_tag.target="blank";
 a_tag.appendChild(b_tag);
 
